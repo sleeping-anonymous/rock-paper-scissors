@@ -36,7 +36,7 @@ function playRound(e) {
     else {
         para.textContent = `Its draw.Both You and Comp chose ${compChoice}`;
     }
-    score.textContent = `Your points ${userScore} . Comp points ${compScore}`;
+    score.textContent = `You : ${userScore} , Comp : ${compScore}`;
 
     if (userScore == 5 || compScore == 5) {
         endGame();
